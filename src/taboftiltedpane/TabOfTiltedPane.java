@@ -34,6 +34,8 @@ public class TabOfTiltedPane extends Tab {
             fxmlLoader.load();
             
                 this.setText(name);
+                    //    vBox.setStyle("-fx-border-color: blue; -fx-border-width: 2px; -fx-border-style: solid;");
+
         } catch (IOException | ResourcesFileErrorException | IllegalArgumentException ex) {
             Logger.getLogger(TabOfTiltedPane.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -49,6 +51,10 @@ public class TabOfTiltedPane extends Tab {
             nothingLabel.setVisible(false);
             nothingLabel.setPadding(new Insets(0,0,0,0));
             vBox.getChildren().add(node);
+            
+             //vBox.setHgrow(node, javafx.scene.layout.Priority.ALWAYS);
+          //    node.setMaxWidth(Double.MAX_VALUE);
+
         }
     }
 

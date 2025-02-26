@@ -9,7 +9,7 @@
 
 <fx:root closable="false" text="Untitled Tab" type="Tab" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <content>
-      <ScrollPane>
+      <ScrollPane fitToWidth="true">
          <content>
             <VBox fx:id="vBox">
                <children>
