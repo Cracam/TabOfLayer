@@ -9,9 +9,9 @@
 
 <fx:root closable="false" text="Untitled Tab" type="Tab" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <content>
-      <ScrollPane fitToWidth="true">
+      <ScrollPane fitToHeight="true" fitToWidth="true">
          <content>
-            <VBox fx:id="vBox">
+            <VBox fx:id="vBox" pickOnBounds="false">
                <children>
                   <Label fx:id="nothingLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Aucun Calques dans cette partie" textAlignment="CENTER">
                      <font>

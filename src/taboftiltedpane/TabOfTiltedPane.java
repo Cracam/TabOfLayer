@@ -22,7 +22,7 @@ public class TabOfTiltedPane extends Tab {
 
     @FXML
     private Label nothingLabel;
-
+    
     public TabOfTiltedPane(String name) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/TabDesignBuilder.fxml"));
@@ -69,5 +69,5 @@ public class TabOfTiltedPane extends Tab {
             nothingLabel.setPadding(new Insets(10,10,10,10));
             nothingLabel.setVisible(true);
         }
-    }
+    }     
 }
